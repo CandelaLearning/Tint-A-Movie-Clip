@@ -1,0 +1,6 @@
+import fl.motion.Color;
+
+var color_1:Color = new Color();
+color_1.setTint(0xff0000, 0.8);//Insert color Hex code and alpha value after the coma
+
+movieClipInstanceName.transform.colorTransform = color_1;//enter movieClip Instance Name you want to tint
